@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/heab"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <Button
+        android:id="@+id/yo"
+        android:background="#00000000"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="144dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/yocha"
+        android:background="#00000000"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="20dp"
+        android:onClick="onClick"
+        android:layout_alignTop="@+id/yo"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/ga"
+        android:background="#00000000"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/yo"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="64dp" />
+
+    <Button
+        android:id="@+id/gacha"
+        android:background="#00000000"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignTop="@+id/ga"
+        android:layout_alignStart="@+id/yocha" />
+
+
+</RelativeLayout>

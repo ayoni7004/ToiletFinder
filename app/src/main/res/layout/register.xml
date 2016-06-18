@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regig"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_marginTop="139dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="ID : "
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/id"
+                android:hint="e-mail ID를 입력하세요."
+                android:inputType="text"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+            <TextView
+                android:text="비밀번호 : "
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/pass"
+                android:hint="비밀번호를 입력하세요."
+                android:inputType="textPassword"
+                android:textSize="15dp" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+            <TextView
+                android:text="전화번호 : "
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/num"
+                android:hint="전화번호 입력하세요."
+                android:inputType="number"
+                android:textSize="15dp" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center_horizontal">
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="111dp"
+        android:layout_toStartOf="@+id/cancel2"
+        android:background="#00000000" />
+
+    <Button
+        android:id="@+id/cancel2"
+        android:layout_width="120dp"
+
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tableLayout"
+        android:layout_alignTop="@+id/join"
+        android:layout_marginRight="20dp"
+        android:background="#00000000" />
+
+</RelativeLayout>

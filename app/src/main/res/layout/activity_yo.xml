@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.xnote.toiletfinder.yo"
+    android:background="@drawable/yo"
+    >
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소변을 하루에 8회 이상 본다."
+        android:id="@+id/radioButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="103dp"
+        android:checked="false"
+        android:onClick="onRadioButtonClicked" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb2"
+        android:text="2시간을 견디지 못하고 화장실에 간다."
+        android:layout_below="@+id/radioButton"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:onClick="onRadioButtonClicked" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="밤에 자다가 소변을 보기 위해 2회 이상 일어난다."
+        android:id="@+id/radioButton3"
+        android:layout_below="@+id/rb2"
+        android:layout_alignParentStart="true"
+        android:onClick="onRadioButtonClicked" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소변이 마려우면 자제할 수 없다."
+        android:id="@+id/radioButton4"
+        android:layout_below="@+id/radioButton3"
+        android:layout_alignParentStart="true"
+        android:onClick="onRadioButtonClicked" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="외출했을 때 화장실을 찾는 것이 걱정되어 물이나 음료수를 마시는 것을 삼가게 된다."
+        android:id="@+id/radioButton5"
+        android:layout_below="@+id/radioButton4"
+        android:layout_alignParentStart="true"
+        android:onClick="onRadioButtonClicked" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="낯선 장소에 가면 먼저 화장실 있는 곳을 확인해둔다."
+        android:id="@+id/radioButton6"
+        android:layout_below="@+id/radioButton5"
+        android:layout_alignParentStart="true"
+        android:onClick="onRadioButtonClicked" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="근처 화장실이 없을 것 같은 곳에는 가지 않으려 한다."
+        android:id="@+id/radioButton7"
+        android:layout_below="@+id/radioButton6"
+        android:layout_alignParentStart="true"
+        android:onClick="onRadioButtonClicked" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자주 갑작스럽게 강한 요의를 느낀다."
+        android:id="@+id/radioButton8"
+        android:layout_below="@+id/radioButton7"
+        android:layout_alignParentStart="true"
+        android:onClick="onRadioButtonClicked" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="화장실을 자주 들락거려 일하는데 방해를 받는다."
+        android:id="@+id/radioButton9"
+        android:layout_below="@+id/radioButton8"
+        android:layout_alignParentStart="true"
+        android:onClick="onRadioButtonClicked" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="소변이 흘러 옷이 젖는 것을 대비해 패드를 사용한다."
+        android:id="@+id/radioButton10"
+        android:onClick="onRadioButtonClicked"
+        android:layout_below="@+id/radioButton9"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="2개 이상 해당 된다면 요실금 의심해봐야합니다."
+        android:layout_below="@+id/radioButton10"
+        android:layout_alignEnd="@+id/radioButton3"
+        android:layout_marginTop="43dp"
+        android:textColor="#fd0303" /><TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView"
+    android:text="2개 이상 해당 된다면 요실금 의심해봐야합니다."
+    android:layout_below="@+id/radioButton10"
+    android:layout_alignEnd="@+id/radioButton3"
+    android:layout_marginTop="43dp"
+    android:textColor="#fd0303" />
+
+</RelativeLayout>

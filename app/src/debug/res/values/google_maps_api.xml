@@ -1,0 +1,21 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=34:06:F2:F3:D8:20:4F:02:E8:8F:9F:97:2C:A0:C0:43:6E:87:2F:97%3Bcom.example.xnote.toiletfinder
+
+    You can also add your credentials to an existing key, using this line:
+    34:06:F2:F3:D8:20:4F:02:E8:8F:9F:97:2C:A0:C0:43:6E:87:2F:97;com.example.xnote.toiletfinder
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyCjYETX1e0RciQUj8reY3Qjx7raMpH-p1s
+    </string>
+</resources>
